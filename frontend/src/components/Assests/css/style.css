@@ -1,0 +1,469 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 62.5%;
+	margin: 0;
+	width: 100%;
+}
+.header-land {
+	padding: 30px 0; 
+	background-color: rgb(6, 47, 53)
+}
+footer {
+  	background-color: #515151;
+  	font-size: 14px;
+  	text-align: center;
+  	color: #cecece;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+}
+
+.wrap {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	
+
+}
+
+#app-name {
+	font-size: 26px; 
+	font-weight: bold;
+	color: #d5d7d6;
+	font: italic small-caps bold (22px/1) cursive;
+}
+
+nav {
+	display: flex;
+	align-items: center; 
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center; 
+}
+nav ul a:hover {
+	color: #553b9e;
+}
+nav li {
+	font-family: sans-serif;
+	font-size: 15px;
+	display: inline-block;
+	margin-right: 30px;
+}
+nav a {
+	text-decoration: none;
+}
+nav li:after {
+	padding-left: 40px;
+	vertical-align: middle;
+	font-size: 20px;
+}
+nav li:last-child:after {
+	content: "";
+}
+.btn {
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	border: 2px solid;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.btn-r {
+	color: rgb(213, 215, 214);
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0.5);
+	font: italic small-caps bold (16px/1) cursive;
+	border: #de2b24;
+}
+.btn-r:hover{
+	color:#4e7cb3 ;
+}
+
+.feature {
+	background: url('https://wallpaperbat.com/img/560417-background-image-for-student-portal-1920x1080-download-hd-wallpaper-wallpapertip.jpg') center center no-repeat;
+ 	background-size: cover;
+ 	text-align: center;
+ 	color: rgb(213, 215, 214);
+	position: relative;
+	padding-top: 186px;
+	padding-bottom: 235px;
+	font: italic small-caps bold (22px/1) cursive;
+}
+.feature h1 {
+	font-size: 48px;
+	font-weight: bold;
+	margin: 0;
+}
+.feature p {
+	font-size: 31px;
+	font-weight: bold;
+	margin: 0;
+}
+.btn-y {
+	background-color: #316695;
+  	border: #676765;
+	color: rgb(213, 215, 214);
+	font-weight: bolder;
+	font-size: 23.5px;
+	margin-top: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: inline-block;
+	position: relative;	
+} 
+.about {
+	color: #6d6969;
+	font: italic small-caps bold (22px/1) cursive;
+	background-color: #ececec;
+	text-align: center;
+	align-items: center;
+	padding-bottom: 50px;
+	
+}
+.about h1 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 9px;
+	padding-top: 80px;
+}
+
+.score-1 {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.services{
+	background-color: #ececec;
+}
+#service-table {
+	margin-right: auto;
+	margin-left: auto;
+	width: 1020px;
+	padding-bottom: 125px;
+}
+.service-names {
+	font-size: 23px;
+	text-align: center;
+	font: italic small-caps bold (22px/1) cursive;
+	font-weight: bold;
+}
+.service-descriptions {
+	font-size: 16px;
+	text-align: center;
+	font-weight: lighter;
+	font: italic 1.2rem "Fira Sans", serif;
+}
+.approach {
+	background-color: #ececec;
+	height: 1205px;
+}
+.submissionp h1{
+	padding-top: 80px;
+	padding-bottom: 20px;
+	margin-bottom: 0;
+	font-size: 56px;
+	color: #6d6969;
+	text-align: center;
+	font-weight: bold;
+	font: italic small-caps bold (32px/1) cursive;
+}
+
+.approach p {
+	font-size: 20px;
+	color: #6d6969;
+	text-align: center;
+	font-weight: lighter;
+	margin-top: 0;
+	padding-bottom: 50px;
+}
+.step-cont {
+	background-color: white;
+	width: 1025px;
+	height: 205px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 40px;
+}
+.num {
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 60px;
+	position: relative;
+}
+.step {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.step-img-L {
+	float: left;
+}
+.step-btn-L {
+	width: 92px;
+  	height: 92px;
+  	font-weight: bolder;
+  	background-color: #de2b24;
+  	border: 5px solid rgb(149, 139, 139);
+  	cursor: pointer;
+  	float: left;
+}
+.step-head-L {
+	font-size: 18px;
+	font: italic small-caps bold (22px/1) cursive;
+	font-weight: bold;
+	float: left;
+	padding-left: 90px;
+	padding-top: 70px;
+}
+.step-body-L {
+	font-size: 15.5px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	float: left;
+	font: italic 1.2rem "Fira Sans", serif;
+	padding-left: 55px;
+	padding-top: 20px;
+	width: 535px;
+}
+.step-img-R {
+	float: right;
+	height: inherit;
+}
+.step-btn-R {
+	width: 92px;
+  	height: 92px;
+  	font-weight: bolder;
+  	background-color: #de2b24;
+  	border: 3px solid white;
+  	cursor: pointer;
+  	top: 65px;
+  	right: 285px;
+}
+.step-head-R {
+	font-size: 18px;
+	font: italic small-caps bold (22px/1) cursive;
+	font-weight: bold;
+	float: right;
+	padding-right: 90px;
+	padding-top: 70px;
+}
+.step-body-R {
+	font-size: 13.5px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	float: right;
+	font: italic 1.2rem "Fira Sans", serif;
+	width: 535px;
+	padding-right: 55px;
+	padding-top: 20px;	
+	}
+
+.work {
+	background-color: #de2b24;
+	padding-bottom: 130px;
+	color: white;
+	text-align: center;
+}
+.work h1 {
+	padding-top: 90px;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 0;
+	
+}
+.work p {
+	font-size: 20px;
+	font-weight: lighter;
+	padding-bottom: 50px;
+	margin-top: 0;
+}
+.work-btn {
+	width: 255px;
+  	height: 255px;
+  	float: left;
+  	background-color: #f35e59;
+}
+.plane {
+	display: block;
+	margin: 80px auto 0 auto;
+}
+.work-head {
+	font-size: 26px;
+	font-weight: bold;
+}
+.work-body {
+	font-size: 16px;
+}
+.work-img {
+	float: left;
+}
+.fb-analysis {
+	background-color: #1287bf;
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 110px;
+}
+.fb-analysis h1 {
+	font-size: 36px;
+	font-weight: bold;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.fb-analysis p {
+	font-size: 20px;
+	font-weight: lighter;
+	color: white;
+	margin-top: 0;
+}
+.fb-arrow {
+	padding-bottom: 50px;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 45px solid white;
+	margin: 0 auto;
+	position: absolute;
+	top: -45px;
+	left: 297px;
+}
+form {
+	position: relative;
+	width: 685px;
+	height: 450px;
+	background-color: white;
+	margin: 0 auto;
+}
+.btn-x {
+	position: absolute;
+	top: -25px;
+	right: -25px;
+}
+.form-wrap {
+	margin: 0 auto;
+	width: 570px;
+	overflow: hidden;
+}
+.fb-analysis .form-txt {
+	font-size: 15px;
+	font-weight: lighter;
+	color: gray;
+	font-family: sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.fields {
+	text-align: left;
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	padding: 20px;
+	width: 450px;
+  	border: 1px solid #ccc;
+  	margin-bottom: 10px;
+  	margin-left: 60px;
+ }
+ .fields:focus {
+ 	box-shadow: 0px 0px 2px 2px #1287bf;
+ }
+.submit-btn {
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	font-size: 15px;
+	width: 160px;
+	height: 45px;
+  	background-color: red;
+  	border: 2px solid red;
+  	cursor: pointer;
+  	margin-top: 10px;
+}
+.in-touch {
+	background-color: #2a2a2a;
+}
+.in-touch h1 {
+	font-size: 29px;
+	font-weight: bolder;
+	text-align: center;
+	color: white;
+	padding-top: 90px;
+}
+.in-touch-wrap {
+	margin: 0 auto;
+	width: 300px;
+	overflow: hidden;
+}
+.social-media-btns {
+	list-style-type: none;
+	padding: 0;
+}
+.social-media-btns li {
+	display: inline-block;
+	padding-right: 5px;
+	padding-left: 8px;
+}
+ .social-media-btns a {
+  	color: white;
+  	text-decoration: none;
+  	text-align: center;
+  	line-height: 50px;
+  	font-size: 24px;
+  	display: block;
+  	border: 2px solid #515151;
+  	width: 50px;
+  	height: 50px;
+  }
+.subscribe-wrap {
+	background-color: #2a2a2a;
+	overflow: hidden;
+}
+.subscribe-txt {
+	color: #cecece;
+	font-size: 14px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.email {
+	background-color: #515151;
+	color: #cecece;
+	width: 685px;
+	font-size: 14px;
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	padding-left: 10px;
+	margin: 0 auto;
+}
+.subscribe-btn {
+	background-color: #2a2a2a;
+	color: #cecece;
+	font-weight: bolder;
+	font-size: 17px;
+	width: 150px;
+	height: 50px;
+  	border: 2px solid #515151;
+  	cursor: pointer;
+  	margin-top: 25px;
+  	margin-left: 45%;
+  	margin-bottom: 85px;
+  }
+
+ 
